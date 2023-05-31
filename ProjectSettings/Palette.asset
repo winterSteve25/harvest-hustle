@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2037b1cdc6b34764f8b9c60227cb8032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorGroups:
+  - Name: Color 60
+    Color: {r: 0.80784315, g: 0.80784315, b: 0.80784315, a: 1}
+    Properties:
+    - GuidString: GlobalObjectId_V1-2-2cda990e2423bbf4892e6590ba056729-519420031-0
+      PropertyPath: m_BackGroundColor
+      ObjectName: Main Camera
+      ObjectType: 0
+    - GuidString: GlobalObjectId_V1-2-0297603f72860724eaf4f9e42678f4a8-1290171382-0
+      PropertyPath: m_BackGroundColor
+      ObjectName: Main Camera
+      ObjectType: 0
+  - Name: Color 30
+    Color: {r: 0.9647059, g: 0.9647059, b: 0.9647059, a: 0.49803922}
+    Properties:
+    - GuidString: GlobalObjectId_V1-2-0297603f72860724eaf4f9e42678f4a8-241144635-0
+      PropertyPath: m_Color
+      ObjectName: Nav Bar
+      ObjectType: 0
+    - GuidString: GlobalObjectId_V1-2-0297603f72860724eaf4f9e42678f4a8-504176083-0
+      PropertyPath: m_Colors.m_NormalColor
+      ObjectName: InputField (TMP)
+      ObjectType: 0
+  - Name: Color 10
+    Color: {r: 0.77254903, g: 0.043137256, b: 0.39215687, a: 1}
+    Properties:
+    - GuidString: GlobalObjectId_V1-2-0297603f72860724eaf4f9e42678f4a8-764068665-0
+      PropertyPath: m_Color
+      ObjectName: Indicator
+      ObjectType: 0
+  - Name: Text Color
+    Color: {r: 0.08235294, g: 0.08235294, b: 0.08235294, a: 1}
+    Properties:
+    - GuidString: GlobalObjectId_V1-2-0297603f72860724eaf4f9e42678f4a8-308524334-0
+      PropertyPath: m_fontColor
+      ObjectName: Text (TMP)
+      ObjectType: 0
+    - GuidString: GlobalObjectId_V1-2-0297603f72860724eaf4f9e42678f4a8-1729509708-0
+      PropertyPath: m_fontColor
+      ObjectName: Text
+      ObjectType: 0
+    - GuidString: GlobalObjectId_V1-2-0297603f72860724eaf4f9e42678f4a8-1351695347-0
+      PropertyPath: m_fontColor
+      ObjectName: Placeholder
+      ObjectType: 0
+  - Name: Color 30 Solid
+    Color: {r: 0.9647059, g: 0.9647059, b: 0.9647059, a: 0.78431374}
+    Properties:
+    - GuidString: GlobalObjectId_V1-2-0297603f72860724eaf4f9e42678f4a8-504176083-0
+      PropertyPath: m_Colors.m_HighlightedColor
+      ObjectName: InputField (TMP)
+      ObjectType: 0
+  Presets:
+  - Colors:
+    - {r: 0.80784315, g: 0.80784315, b: 0.80784315, a: 1}
+    - {r: 0.9647059, g: 0.9647059, b: 0.9647059, a: 0.49803922}
+    - {r: 0.77254903, g: 0.043137256, b: 0.39215687, a: 1}
+    - {r: 0.08235294, g: 0.08235294, b: 0.08235294, a: 1}
+    - {r: 0.9647059, g: 0.9647059, b: 0.9647059, a: 1}
